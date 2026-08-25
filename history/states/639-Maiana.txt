@@ -22,10 +22,6 @@ state={
 			13020 = {
 				naval_base = 1
 			}
-			13043 = { #Was 633-Marshall Islands
-				naval_base = 1
-			
-			}
 		}
 		victory_points = {
 			13021 1 
@@ -43,7 +39,7 @@ state={
 	}
 
 	provinces={
-		4387 7393 13020 13021 13022 13042 13043 19974
+		4387 7393 13020 13021 13022 13042 19974
 	}
 
 	local_supplies=0.0 

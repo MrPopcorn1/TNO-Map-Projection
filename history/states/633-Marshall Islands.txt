@@ -20,10 +20,10 @@ state={
 				naval_base = 3
 
 			}
-			#13043 = { #moved to 639-Maiana
-			#	naval_base = 1
-			#
-			#}
+			13043 = {
+				naval_base = 1
+			
+			}
 			13046 = {
 				naval_base = 1
 
@@ -52,7 +52,7 @@ state={
 	}
 
 	provinces={
-		1002 13039 13040 13041 13044 13045 13046 
+		1002 13039 13040 13041 13043 13044 13045 13046 
 	}
 
 	local_supplies=0.0 

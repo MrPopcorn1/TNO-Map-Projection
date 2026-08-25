@@ -187,148 +187,142 @@ on_actions = {
 		effect = {
 			IF = {
 				limit = { has_dlc = "No Compromise, No Surrender" }
-				716 = { #Liaoning TNO Map # was Kirin (328)
+				716 = { #Liaoning
 					add_province_modifier = {
 						static_modifiers = { the_great_wall }
 						province = {
 							id = 9848
-						}
-					}
-					add_to_array = { global.great_wall_state = THIS }
-					set_state_flag = CHI_great_wall_raidable
-				}
-				716 = { # Liaoning
-					add_province_modifier = {
-						static_modifiers = { the_great_wall }
-						province = {
-							id = 6910
-							id = 6804
-							id = 3849
-							id = 11808
+							id = 945
+							id = 6868
 							id = 846
-							id = 6951 #
 							id = 11815
 						}
 					}
 					add_to_array = { global.great_wall_state = THIS }
 					set_state_flag = CHI_great_wall_raidable
 				}
-				328 = { #Kirin TNO Map # was Liaobei (715)
+				328 = { #Kirin
 					add_province_modifier = {
 						static_modifiers = { the_great_wall }
 						province = {
-							id = 916
+							id = 887
+							id = 19811
 						}
 					}
 					add_to_array = { global.great_wall_state = THIS }
 					set_state_flag = CHI_great_wall_raidable
 				}
-				609 = { # East Hebei
-					add_province_modifier = {
-						static_modifiers = { the_great_wall }
-						province = {
-							id = 3900
-							id = 3830
-							id = 900
-							id = 9905
-							id = 11822
-						}
-					}
-					add_to_array = { global.great_wall_state = THIS }
-					set_state_flag = CHI_great_wall_raidable
-				}
-				610 = { # Jehol
+				610 = { #Jehol
 					add_province_modifier = {
 						static_modifiers = { the_great_wall }
 						province = {
 							id = 3934
+							id = 14627
 							id = 6852
+							id = 3828
 							id = 11855
+							id = 19514
 							id = 6898
 							id = 11886
-							id = 6969
-							id = 3955
+							id = 3814
 						}
 					}
 					add_to_array = { global.great_wall_state = THIS }
 					set_state_flag = CHI_great_wall_raidable
 				}
-				1039 = { # Hebei-Chahar
+				609 = { #East Hebei
+					add_province_modifier = {
+						static_modifiers = { the_great_wall }
+						province = {
+							id = 9905
+							id = 19474
+							id = 14625
+							id = 19538
+							id = 19600
+							id = 19869
+						}
+					}
+					add_to_array = { global.great_wall_state = THIS }
+					set_state_flag = CHI_great_wall_raidable
+				}
+				1039 = { #Hebei-Chahar
 					add_province_modifier = {
 						static_modifiers = { the_great_wall }
 						province = {
 							id = 9776
 							id = 6904
+							id = 19727
 							id = 1590
 						}
 					}
 					add_to_array = { global.great_wall_state = THIS }
 					set_state_flag = CHI_great_wall_raidable
 				}
-				615 = { # Shanxi TNO Map # was Suiyuan (621)
+				611 = { #Chahar
 					add_province_modifier = {
 						static_modifiers = { the_great_wall }
 						province = {
-							id = 7158
+							id = 952
 						}
 					}
 					add_to_array = { global.great_wall_state = THIS }
 					set_state_flag = CHI_great_wall_raidable
 				}
-				615 = { # Shanxi
+				621 = { #Siuyuan
+					add_province_modifier = {
+						static_modifiers = { the_great_wall }
+						province = {
+							id = 16848
+							id = 12403
+							id = 15196
+							}
+					}
+					add_to_array = { global.great_wall_state = THIS }
+					set_state_flag = CHI_great_wall_raidable
+				}
+				615 = { #Shanxi
 					add_province_modifier = {
 						static_modifiers = { the_great_wall }
 						province = {
 							id = 12432
 							id = 10507
-							id = 4074
-							id = 1203
+							id = 19596
 							id = 4469
-							id = 12300
+							id = 1438
+							id = 1027
 						}
 					}
 					add_to_array = { global.great_wall_state = THIS }
 					set_state_flag = CHI_great_wall_raidable
 				}
-				1046 = { # Yulin
+				614 = { #Hebei
 					add_province_modifier = {
 						static_modifiers = { the_great_wall }
 						province = {
-							id = 7659
-							id = 7314
-						}
-					}
-					add_to_array = { global.great_wall_state = THIS }
-					set_state_flag = CHI_great_wall_raidable
-				}
-				608 = { # Beijing
-					add_province_modifier = {
-						static_modifiers = { the_great_wall }
-						province = {
-							id = 4140 
-							id = 1134
-							id = 9843
-						}
-					}
-					add_to_array = { global.great_wall_state = THIS }
-					set_state_flag = CHI_great_wall_raidable
-				}
-				614 = { # Hebei
-					add_province_modifier = {
-						static_modifiers = { the_great_wall }
-						province = {
-							id = 10022
-							id = 7109
-							id = 7000 #
-							id = 10053 #
+							id = 4208
+							id = 7000
+							id = 16878
+							id = 10053
 							id = 4093
+							id = 9070
 							id = 12062
 						}
 					}
 					add_to_array = { global.great_wall_state = THIS }
 					set_state_flag = CHI_great_wall_raidable
 				}
-				607 = { # Henan
+				608 = { #Beiping
+					add_province_modifier = {
+						static_modifiers = { the_great_wall }
+						province = {
+							id = 1134
+							id = 19808
+						}
+					}
+					add_to_array = { global.great_wall_state = THIS }
+					set_state_flag = CHI_great_wall_raidable
+				}
+				607 = { #Henan
 					add_province_modifier = {
 						static_modifiers = { the_great_wall }
 						province = {
@@ -338,29 +332,47 @@ on_actions = {
 					add_to_array = { global.great_wall_state = THIS }
 					set_state_flag = CHI_great_wall_raidable
 				}
-				622 = { # Shaanbei
+				1046 = { #Yulin
+					add_province_modifier = {
+						static_modifiers = { the_great_wall }
+						province = {
+							id = 7659
+							id = 4986
+							id = 7314
+						}
+					}
+					add_to_array = { global.great_wall_state = THIS }
+					set_state_flag = CHI_great_wall_raidable
+				}
+				622 = { #Shaanbei
 					add_province_modifier = {
 						static_modifiers = { the_great_wall }
 						province = {
 							id = 10880
+							id = 11849
 						}
 					}
 					add_to_array = { global.great_wall_state = THIS }
 					set_state_flag = CHI_great_wall_raidable
 				}
-				616 = { # Ningxia
+				616 = { #Ningxia
 					add_province_modifier = {
 						static_modifiers = { the_great_wall }
 						province = {
+							id = 9071
 							id = 8081
-							id = 10724
 							id = 8127
+							id = 4243
+							id = 15739
+							id = 12750
+							id = 12714
+							id = 15555
 						}
 					}
 					add_to_array = { global.great_wall_state = THIS }
 					set_state_flag = CHI_great_wall_raidable
 				}
-				1044 = { # Wuwei
+				1044 = { #Wuwei
 					add_province_modifier = {
 						static_modifiers = { the_great_wall }
 						province = {
@@ -372,11 +384,13 @@ on_actions = {
 					add_to_array = { global.great_wall_state = THIS }
 					set_state_flag = CHI_great_wall_raidable
 				}
-				756 = { # Jiuquan
+				756 = { #Jiuquan
 					add_province_modifier = {
 						static_modifiers = { the_great_wall }
 						province = {
 							id = 2028
+							id = 8102
+							id = 19411
 							id = 7971
 						}
 					}

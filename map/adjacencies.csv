@@ -97,7 +97,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 12118;14725;sea;8751;-1;-1;-1;-1;;Bohol-Cebu
 9833;11829;sea;5412;-1;-1;-1;-1;;Bosphorus
 13041;13044;sea;7287;-1;-1;-1;-1;;Carolines 1
-13042;13043;sea;8699;-1;-1;-1;-1;;Carolines 2
+13040;13043;sea;2462;-1;-1;-1;-1;;Carolines 2
 13032;13033;sea;7918;-1;-1;-1;-1;;Carolines 3
 13035;13036;sea;2339;-1;-1;-1;-1;;Carolines 8
 10288;12246;sea;5513;-1;-1;-1;-1;;Cobourg-Australia
@@ -169,10 +169,10 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 1002;13044;sea;2438;-1;-1;-1;-1;;Marshalls 1
 4387;13020;sea;8290;-1;-1;-1;-1;;Marshalls 10
 13041;13045;sea;2438;-1;-1;-1;-1;;Marshalls 2
-13040;13044;sea;2462;-1;-1;-1;-1;;Marshalls 3
+13043;13044;sea;2438;-1;-1;-1;-1;;Marshalls 3
 13039;13041;sea;7287;-1;-1;-1;-1;;Marshalls 4
 13045;13046;sea;7062;-1;-1;-1;-1;;Marshalls 5
-7393;13043;sea;5941;-1;-1;-1;-1;;Marshalls 7
+7393;13042;sea;8699;-1;-1;-1;-1;;Marshalls 7
 7393;13022;sea;8316;-1;-1;-1;-1;;Marshalls 8
 4387;13021;sea;8290;-1;-1;-1;-1;;Marshalls 9
 177;7123;sea;5533;-1;-1;-1;-1;;Martinique-Dominica
