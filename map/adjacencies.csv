@@ -597,5 +597,5 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2408;2729;;-1;-1;-1;-1;-1;KIEL_CANAL;Kiel
 2919;2943;;-1;-1;-1;-1;-1;HORMUZ_STRAIT;hormuz
 5864;17897;;-1;-1;-1;-1;-1;OTRANTO_STRAIT;Otranto Strait
-8282;843;;-1;-1;-1;-1;-1;OTRANTO_STRAIT;Don volga canal
+8282;843;;-1;-1;-1;-1;-1;VOLGADON_CANAL;Don volga canal
 -1;-1;-1;-1;-1;-1;-1;-1;-1;
