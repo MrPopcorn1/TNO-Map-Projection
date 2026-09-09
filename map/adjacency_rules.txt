@@ -415,3 +415,69 @@ adjacency_rule =
 	icon = 6527
 	offset = { 4 0 0 }
 }
+
+#McClure Strait
+adjacency_rule = {
+	name = "MCCLURE_STRAIT"
+
+	contested = {
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	required_provinces = { 16853 17219 }
+	icon = 17135
+	offset = { 0 0 0 }
+}
+
+#Lancaster Sound
+adjacency_rule = {
+	name = "LANCASTER_SOUND"
+
+	contested = {
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	enemy = {
+		army = no
+		navy = no
+		submarine = yes
+		trade = no
+	}
+	friend = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	neutral = {
+		army = yes
+		navy = yes
+		submarine = yes
+		trade = yes
+	}
+	required_provinces = { 16865 16862 }
+	icon = 16934
+	offset = { 0 0 0 }
+}

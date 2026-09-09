@@ -110,6 +110,7 @@
  NORTHWEST_PASSAGES: "Pasos del Noroeste"
  ANTARCTIC_PENINSULA: "Península Antártica"
  QUEEN_MAUD_LAND: "Tierra de la Reina Maud"
+ HUDSON_STRAIT: "Estrecho de Hudson"
 
 #Victory Points #Important to put 'BASE_' at the start of the loc key to make sure provinces aren't renamed immediately.
  #Neuschwabenland

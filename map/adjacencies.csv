@@ -598,4 +598,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 2919;2943;;-1;-1;-1;-1;-1;HORMUZ_STRAIT;hormuz
 5864;17897;;-1;-1;-1;-1;-1;OTRANTO_STRAIT;Otranto Strait
 8282;843;;-1;-1;-1;-1;-1;VOLGADON_CANAL;Don volga canal
+17128;17135;;-1;-1;-1;-1;-1;MCCLURE_STRAIT;McClure Strait
+16934;17078;;-1;-1;-1;-1;-1;LANCASTER_SOUND;Lancaster Sound
 -1;-1;-1;-1;-1;-1;-1;-1;-1;

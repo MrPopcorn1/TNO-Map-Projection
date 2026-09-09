@@ -1,18 +1,18 @@
 
 strategic_region={
-	id=50
-	name="STRATEGICREGION_50"
+	id=320
+	name="HUDSON_STRAIT"
 	provinces={
-		217 419 600 795 1218 1669 1894 2112 2233 2259 2285 2767 2792 2839 2864 2888 2911 2935 2959 3037 3441 3633 3826 4035 4258 4484 5830 5856 5881 5905 5928 6054 7724 7952 8163 8274 8694 8719 16890 16897 16937 16959 16976 16977 17021 17070 17071 17073 17082 17100 17112
+		1256 5953 5977 6000 6261 8930 8953 8978 16914 16917 16944 16957 16982 17011 17076 17109 17156
 	}
 	naval_terrain=water_fjords
 	weather={
 		period={
 			between={ 0.0 30.0 }
-			temperature={ -15.0 2.0 }
+			temperature={ -10.0 2.0 }
 			no_phenomenon=0.500
-			rain_light=0.400
-			rain_heavy=0.250
+			rain_light=0.250
+			rain_heavy=0.100
 			snow=0.000
 			blizzard=0.000
 			arctic_water=1.000
@@ -22,10 +22,10 @@ strategic_region={
 		}
 		period={
 			between={ 0.1 27.1 }
-			temperature={ -15.0 2.0 }
+			temperature={ -10.0 2.0 }
 			no_phenomenon=0.500
-			rain_light=0.400
-			rain_heavy=0.250
+			rain_light=0.250
+			rain_heavy=0.100
 			snow=0.000
 			blizzard=0.000
 			arctic_water=1.000
@@ -35,7 +35,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.2 30.2 }
-			temperature={ 4.0 10.0 }
+			temperature={ -10.0 2.0 }
 			no_phenomenon=0.500
 			rain_light=0.250
 			rain_heavy=0.100
@@ -48,7 +48,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.3 29.3 }
-			temperature={ 4.0 10.0 }
+			temperature={ -10.0 2.0 }
 			no_phenomenon=0.500
 			rain_light=0.250
 			rain_heavy=0.100
@@ -61,7 +61,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.4 30.4 }
-			temperature={ 5.0 15.0 }
+			temperature={ -10.0 2.0 }
 			no_phenomenon=0.500
 			rain_light=0.250
 			rain_heavy=0.100
@@ -74,7 +74,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.5 29.5 }
-			temperature={ 5.0 15.0 }
+			temperature={ -10.0 2.0 }
 			no_phenomenon=0.500
 			rain_light=0.250
 			rain_heavy=0.100
@@ -87,7 +87,7 @@ strategic_region={
 		}
 		period={
 			between={ 0.6 30.6 }
-			temperature={ 5.0 15.0 }
+			temperature={ -10.0 2.0 }
 			no_phenomenon=0.500
 			rain_light=0.250
 			rain_heavy=0.100
@@ -100,10 +100,10 @@ strategic_region={
 		}
 		period={
 			between={ 0.7 30.7 }
-			temperature={ 0.0 8.0 }
+			temperature={ -10.0 2.0 }
 			no_phenomenon=0.500
-			rain_light=0.400
-			rain_heavy=0.200
+			rain_light=0.250
+			rain_heavy=0.100
 			snow=0.000
 			blizzard=0.000
 			arctic_water=1.000
@@ -113,10 +113,10 @@ strategic_region={
 		}
 		period={
 			between={ 0.8 29.8 }
-			temperature={ 0.0 8.0 }
+			temperature={ -10.0 2.0 }
 			no_phenomenon=0.500
-			rain_light=0.400
-			rain_heavy=0.200
+			rain_light=0.250
+			rain_heavy=0.100
 			snow=0.000
 			blizzard=0.000
 			arctic_water=1.000
@@ -126,10 +126,10 @@ strategic_region={
 		}
 		period={
 			between={ 0.9 30.9 }
-			temperature={ 0.0 8.0 }
+			temperature={ -10.0 2.0 }
 			no_phenomenon=0.500
-			rain_light=0.400
-			rain_heavy=0.200
+			rain_light=0.250
+			rain_heavy=0.100
 			snow=0.000
 			blizzard=0.000
 			arctic_water=1.000
@@ -139,10 +139,10 @@ strategic_region={
 		}
 		period={
 			between={ 0.10 29.10 }
-			temperature={ -15.0 2.0 }
+			temperature={ -10.0 2.0 }
 			no_phenomenon=0.500
-			rain_light=0.400
-			rain_heavy=0.250
+			rain_light=0.250
+			rain_heavy=0.100
 			snow=0.000
 			blizzard=0.000
 			arctic_water=1.000
@@ -152,10 +152,10 @@ strategic_region={
 		}
 		period={
 			between={ 0.11 30.11 }
-			temperature={ -15.0 2.0 }
+			temperature={ -10.0 2.0 }
 			no_phenomenon=0.500
-			rain_light=0.400
-			rain_heavy=0.250
+			rain_light=0.250
+			rain_heavy=0.100
 			snow=0.000
 			blizzard=0.000
 			arctic_water=1.000

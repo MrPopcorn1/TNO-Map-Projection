@@ -4930,7 +4930,7 @@
 4929;251;85;194;land;false;forest;6
 4930;254;221;214;land;false;forest;6
 4931;51;32;244;sea;true;ocean;0
-4932;51;33;98;land;true;desert;7
+4932;51;33;98;land;false;desert;7
 4933;51;33;148;land;false;desert;5
 4934;51;33;203;land;false;jungle;3
 4935;51;34;232;sea;false;ocean;0

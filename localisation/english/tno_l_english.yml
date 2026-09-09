@@ -110,6 +110,7 @@
  NORTHWEST_PASSAGES: "Northwest Passages"
  ANTARCTIC_PENINSULA: "Antarctic Peninsula"
  QUEEN_MAUD_LAND: "Queen Maud Land"
+ HUDSON_STRAIT: "Hudson Strait"
 
 #Victory Points #Important to put 'BASE_' at the start of the loc key to make sure provinces aren't renamed immediately.
  #Neuschwabenland
