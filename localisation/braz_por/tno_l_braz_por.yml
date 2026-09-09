@@ -1,0 +1,459 @@
+﻿l_braz_por:
+#Misc
+ antarctica: "Antártida" #Continent
+ antarctica_adj: "Antártico"
+ VICTORY_POINTS_17744: " " #blank name
+ wasteland_focus: "Árvore de Focos dos Ermos"
+ ZZZ_isnt_ai: "[ZZZ.GetNameDef] é um Jogador"
+ antarctica_game_rule_folder: "Antártida"
+ antarctica_content: "Status da Antártida"
+ RULE_GROUP_ANTARCTICA: "Antártida"
+ DISABLE_ANTARCTIC_CONTENT_GAMERULE_NO: "Conteúdo Antártico Desativado"
+ DISABLE_ANTARCTIC_CONTENT_GAMERULE_NO_desc: "O conteúdo antártico será desativado para todos os países e os ermos congelados permanecerão intocados.\n\nVocê ainda poderá justificar objetivos de guerra contra a §HAntártida§!."
+ DISABLE_ANTARCTIC_CONTENT_GAMERULE_YES: "Conteúdo Antártico Ativado"
+ DISABLE_ANTARCTIC_CONTENT_GAMERULE_YES_desc: "O conteúdo antártico será ativado e estará livremente acessível a todas as nações, desde que cumpram seus requisitos."
+ DISABLE_ANTARCTIC_CONTENT_GAMERULE_LIMITED: "Conteúdo Antártico Limitado"
+ DISABLE_ANTARCTIC_CONTENT_GAMERULE_LIMITED_desc: "Apenas países com reivindicações históricas e expedições podem interagir com a §HAntártida§!.\nIsso inclui:\n\n@ARG Argentina\n@AST Austrália\n@CHL Chile\n@FRA França\n@GER Reich Alemão\n@NZL Nova Zelândia\n@NOR Noruega\n@ENG Reino Unido (AINDA NÃO IMPLEMENTADO)\n@USA Estados Unidos"
+ #RULE_OPTION_ZZZ_FRAGMENTED: "Particionada"
+ #RULE_OPTION_ZZZ_FRAGMENTED_desc: "As reivindicações antárticas históricas serão transferidas para seus respectivos países de acordo com o Sistema do Tratado da Antártida no início do jogo.\n\n§RDesativa a criação de quaisquer bases antárticas.§!"
+ neuschwabenland: "Nova Suábia"
+ neuschwabenland_DEF: "$neuschwabenland$"
+ neuschwabenland_ADJ: "Neosuábio"
+ NORTHWEST_PASSAGE: "Passagem do Noroeste"
+ NORTHERN_SEA_ROUTE: "Rota do Mar do Norte"
+ #Caspian sea
+ VOLGADON_CANAL: "Canal Volga-Don"
+ Volga_don_blocked_tt_NOT: "§RO Canal Volga-Don não foi construído ou está bloqueado§!"
+ build_volga_don_canal: "Construir o Canal Volga-Don"
+ build_volga_don_canal_desc: "Nossas limitadas forças navais no Mar Cáspio estão há muito tempo isoladas de nosso ramo principal; ao construir um canal para conectá-lo com o Mar Negro, poderemos finalmente movimentar nossas forças navais de e para o mar à vontade."
+ VOLGA_DON_BUILT_tt: "§GO Canal Volga-Don permitirá a travessia de navios.§!"
+
+#States
+ EAST_ANTARCTICA: "Antártida Oriental"
+ NORTH_GRAHAM_LAND: "Terra de Graham Setentrional" #was Antarctic Peninsula
+  CHL_NORTH_GRAHAM_LAND: "Tierra del Norte de O'Higgins"
+  ARG_NORTH_GRAHAM_LAND: "Tierra del Norte de San Martín"
+ ALEXANDER_ISLAND: "Ilha Alexandre I"
+ ADELIE_LAND: "Terra Adélia"
+ FRA_ADELIE_LAND: "Terre Adélie"
+ VICTORIA_LAND: "Terra de Oates" #was Victoria Land
+ GEORGE_VI_SOUND: "Estreito de George VI"
+ EAST_ELLSWORTH_LAND: "Terra de Ellsworth Oriental"
+ WEST_ELLSWORTH_LAND: "Terra de Ellsworth Ocidental"
+ MARIE_BYRD_LAND: "Costa Eights" #was Marie Byrd Land
+ ROSS_DEPENDENCY: "Dependência de Ross Ocidental" #was Ross Dependency
+ PRINCESS_ASTRID_COAST: "Costa da Princesa Astrid" #was Queen Maud Land
+  GER_PRINCESS_ASTRID_COAST: "Ost-Neuschwabenland"
+ WILKES_LAND: "Terra de Wilkes"
+ PRINCESS_ELIZABETH_LAND: "Terra da Princesa Elizabeth"
+ WEST_ANTARCTICA: "Terra de Marie Byrd" #was West Antarctica
+ RONNE_ICE_SHELF: "Plataforma de Gelo Filchner-Ronne"
+ COATS_LAND: "Terra de Coats"
+ BRUNT_ICE_SHELF: "Plataforma de Gelo Brunt"
+ PRINCESS_MARTHA_COAST: "Costa da Princesa Martha"
+  GER_PRINCESS_MARTHA_COAST: "West-Neuschwabenland"
+ AMSTERDAM_ISLAND: "Ilhas de São Paulo e Amsterdã"
+  FRA_AMSTERDAM_ISLAND: "Îles Saint-Paul et Amsterdam"
+ HEARD_ISLAND: "Ilha Heard"
+ SVALBARD: "Svalbard"
+  GER_SVALBARD: "Spitzbergen"
+  ENG_SVALBARD: "Spitsbergen"
+ BOUVET_ISLAND: "Ilha Bouvet"
+ TRISTAN_DA_CUNHA: "Tristão da Cunha"
+ WALLIS_AND_FUTUNA: "Wallis e Futuna"
+ MARQUESAS_ISLANDS: "Ilhas Marquesas"
+ CLIPPERTON_ISLAND: "Ilha Clipperton"
+ COOK_ISLANDS: "Ilhas Cook"
+ PETER_I_ISLAND: "Ilha Pedro I"
+ PALMER_LAND: "Terra de Palmer"
+ RIISER_LARSEN_ICE_SHELF: "Plataforma de Gelo Riiser-Larsen"
+ FIMBUL_ICE_SHELF: "Plataforma de Gelo Fimbul"
+ PRINCESS_RAGNHILD_COAST: "Costa da Princesa Ragnhild"
+ PRINCE_HARALD_COAST: "Costa do Príncipe Harald-Olav"
+ ENDERBY_LAND: "Terra de Enderby"
+ EAST_ROSS_DEPENDENCY: "Dependência de Ross Oriental"
+ BERKNER_ICE_SHELF: "Plataforma de Gelo Berkner"
+ LAKE_UNTERSEE: "Montanhas Humboldt"
+ SOUTH_ORKNEY_ISLANDS: "Ilhas Orcadas do Sul"
+ SOUTH_SHETLAND_ISLANDS: "Ilhas Shetland do Sul"
+  ARG_SOUTH_SHETLAND_ISLANDS: "Islas Shetland del Sur"
+  CHL_SOUTH_SHETLAND_ISLANDS: "Islas Shetland del Sur"
+ SOUTH_GRAHAM_LAND: "Terra de Graham Meridional"
+  CHL_SOUTH_GRAHAM_LAND: "Tierra del Sur de O'Higgins"
+  ARG_SOUTH_GRAHAM_LAND: "Tierra del Sur de San Martín"
+ TRINITY_PENINSULA: "Península Trinity"
+  ARG_TRINITY_PENINSULA: "Península Trinidad"
+  CHL_TRINITY_PENINSULA: "Península Luis Felipe"
+ LARSEN_ICE_SHELF: "Plataforma de Gelo Larsen"
+ BLACK_COAST: "Costa Black"
+ QUEEN_ELIZABETH_LAND: "Terra da Rainha Elizabeth"
+ NORTH_TRINITY_COAST: "Costa Trinity Norte"
+  CHL_NORTH_TRINITY_COAST: "Rada Covadonga"
+ ADELAIDE_ISLAND: "Ilha Adelaide"
+ MAC_ROBERTSON_LAND: "Terra de Mac. Robertson"
+ QUEEN_MARY_LAND: "Terra da Rainha Mary"
+ SAUNDERS_COAST: "Costa Saunders"
+ BAKUTIS_COAST: "Costa Bakutis"
+ ROSS_ISLAND: "Ilha de Ross"
+
+#Strategic Regions
+ SCOTIA_SEA: "Mar de Scotia"
+ ROSS_SEA: "Mar de Ross"
+ AMUNDSEN_SEA: "Mar de Amundsen"
+ WEDDEL_SEA: "Mar de Weddell"
+ URVILLE_SEA: "Mar d'Urville"
+ DAVIS_SEA: "Mar de Davis"
+ HAAKON_VII_SEA: "Mar de Haakon VII"
+ KARA_SEA: "Mar de Kara"
+ BEAUFORT_SEA: "Mar de Beaufort"
+ EAST_SIBERIAN_SEA: "Mar da Sibéria Oriental"
+ NORTHWEST_PASSAGES: "Passagens do Noroeste"
+ ANTARCTIC_PENINSULA: "Península Antártica"
+ QUEEN_MAUD_LAND: "Terra da Rainha Maud"
+
+#Victory Points #Important to put 'BASE_' at the start of the loc key to make sure provinces aren't renamed immediately.
+ #Neuschwabenland
+ BASE_VICTORY_POINTS_17695: "Schirmacher-Station"
+ BASE_VICTORY_POINTS_17742: "Hafen von Admiral Graf Spee"
+ BASE_VICTORY_POINTS_17792: "Arminius-Station" #unused
+ BASE_VICTORY_POINTS_17794: "Wolf" #unused
+ BASE_VICTORY_POINTS_17804: "Führer-Station" #unused
+ BASE_VICTORY_POINTS_17807: "DGfP VI" #unused
+ BASE_VICTORY_POINTS_17810: "Stützpunkt Georg von Neumayer"
+ BASE_VICTORY_POINTS_17772: "Neu Berchtesgaden" #Could be renamed to Base 211
+
+ #Argentina
+ BASE_VICTORY_POINTS_17591: "Base Melchior" #unused
+ BASE_VICTORY_POINTS_17594: "Base Orcadas"
+ BASE_VICTORY_POINTS_17639: "Base Cámara" #unused
+ BASE_VICTORY_POINTS_17677: "Base Decepción" #unused
+ BASE_VICTORY_POINTS_17715: "Base Esperanza"
+ BASE_VICTORY_POINTS_17732: "Base Carlini" #unused
+ BASE_VICTORY_POINTS_17796: "Base Brown" #unused
+ BASE_VICTORY_POINTS_17797: "Estação de Reabastecimento Gateway Peak" #unused
+ BASE_VICTORY_POINTS_17809: "Base Primavera"
+ BASE_VICTORY_POINTS_17811: "Base San Martín"
+ #Chile
+ BASE_VICTORY_POINTS_17666: "Base Arturo Prat"
+ BASE_VICTORY_POINTS_17667: "Base Bernardo O'Higgins"
+ BASE_VICTORY_POINTS_17787: "Base Carrera"
+ BASE_VICTORY_POINTS_17805: "Base Naval Presidente Arturo Allesandri"
+ BASE_VICTORY_POINTS_17813: "Base Teniente Carvajal"
+
+ #France
+ BASE_VICTORY_POINTS_17612: "Port-Martin"
+
+ #Norway
+ BASE_VICTORY_POINTS_17785: "Riiser-Larsen Stasjonen" #Fictional
+ BASE_VICTORY_POINTS_17799: "Christiensen-Stasjonen" #Fictional
+
+ #Australia
+ BASE_VICTORY_POINTS_17808: "Estação Mawson"
+ BASE_VICTORY_POINTS_17786: "Estação Davis"
+ BASE_VICTORY_POINTS_17790: "Estação Wilkes"
+ BASE_VICTORY_POINTS_17814: "Estação Enderby" #Fictional
+
+ #New Zealand
+ NZL_BASE_VICTORY_POINTS_17802: "Base Scott"
+ BASE_VICTORY_POINTS_17706: "Estação Hallett"
+
+ #USA
+ USA_BASE_VICTORY_POINTS_17802: "Estação McMurdo"
+ BASE_VICTORY_POINTS_17791: "Little America III"
+ USA_BASE_VICTORY_POINTS_17811: "Base Leste"
+
+ #UK
+
+#Antarctica Country
+ ZZZ_Antarctic_Anarchy: "Ermos Antárticos"
+ ZZZ_Antarctic_Anarchy_desc: "A pouca vida que existe na Antártida tende a se concentrar nas costas, onde o mar oferece ao menos algum alívio para suas vidas sombrias. Quanto mais alguém se aproxima do coração sombrio do continente congelado, mais inóspito o terreno se torna. Sastrugis afiados como navalhas, fendas sem fundo e cegueira pela neve desafiam a existência da vida. Apenas os humanos recém-chegados seriam tolos o suficiente para se aventurar em um lugar assim."
+ ZZZ_hidden: "$ZZZ_Antarctic_Anarchy$"
+ ZZZ_no_authority: "Sem Autoridade"
+ ZZZ: ""
+ ZZZ_DEF: "$antarctica$"
+ ZZZ_ADJ: "$antarctica_adj$"
+
+#Ideas
+ ARG_south_orkney_war: "Guerra das Orcadas do Sul"
+ ENG_south_orkney_war: "$ARG_south_orkney_war$"
+ GER_calculated_retreat_hidden: "Recuo Calculado (§HOculto§!)"
+
+#Decisions
+ #Generic Decisions
+ antarctica_decisions: "Expedições Antárticas"
+ antarctic_decision_flavor: "A Antártida é um lugar frio e impiedoso. Até o século XX, o continente mais ao sul do mundo era em grande parte desconhecido. A terra é dividida e reivindicada por várias potências do mundo, mas essas reivindicações têm pouco peso diplomático, já que as nações preferem se concentrar nas regiões mais habitáveis do planeta."
+ #antarctica_decisions_desc: "$antarctic_decision_flavor$\n\nA §R50%§! de $ANTARCTIC_TENSION_HEADER$ poderemos criar §HBases§!.\nA §R90%§! de $ANTARCTIC_TENSION_HEADER$ poderemos reivindicar §HGeleiras§! e §HPlataformas de Gelo§!, permitindo conectar nossas §HBases§! umas às outras.\nAumentar nossa §Gatividade§! no continente aumentará a $ANTARCTIC_TENSION_HEADER$.\n\n$ANTARCTIC_TENSION_HEADER$ atual: [?ANTARCTIC_TENSION_VAR|%|0|-]"
+ antarctic_development: "Desenvolvimento de Bases Antárticas"
+ antarctica_decisions_desc: "$antarctic_decision_flavor$"
+ GENERIC_form_antarctica_department: "Formalizar um Departamento Antártico"
+ GENERIC_form_antarctica_department_desc: "Estabelecer uma presença na Antártida pode nos conceder uma vantagem científica e militar significativa."
+ #Generic Development Decisions
+ military_exercises_in_antarctic_base: "Exercícios Militares em [FROM.GetName]"
+ expand_antarctic_base: "Expandir [FROM.GetCapitalVictoryPointName]"
+ antarctic_science_station: "Construir Laboratórios de Pesquisa em [FROM.GetCapitalVictoryPointName]"
+ #GER Decisions
+ GER_GENERIC_form_antarctica_department: "Estabelecer o Setor Antártico Alemão"
+ GER_send_ritscher_to_antarctica: "Organizar a Terceira Expedição Antártica Alemã"
+ GER_establish_gran_spee_station: "Estabelecer $BASE_VICTORY_POINTS_17742$"
+ GER_establish_neumayer_station: "Estabelecer $BASE_VICTORY_POINTS_17810$"
+ GER_establish_untersee_base: "Estabelecer $BASE_VICTORY_POINTS_17772$"
+ GER_establish_schirmacher_station: "Estabelecer $BASE_VICTORY_POINTS_17695$"
+ GER_install_thermal_plants_in_base_211: "Instalar Usinas Geotérmicas em $BASE_VICTORY_POINTS_17772$"
+ GER_transfer_military_assets_to_base_211: "Transferir Ativos Militares para $BASE_VICTORY_POINTS_17772$"
+ GER_annex_queen_maud_land: "Ocupar a Terra da Rainha Maud"
+ #ARG Decisions
+ ARG_GENERIC_form_antarctica_department: "Estabelecer o Sector Antártico Argentino"
+ ARG_expand_orcadas_base: "Expandir $BASE_VICTORY_POINTS_17594$"
+ ARG_expand_orcadas_base_desc: "Agora que garantimos as Ilhas Orcadas do Sul, podemos começar a expandir a $BASE_VICTORY_POINTS_17594$ significativamente.\nConstruir alojamentos para o pessoal e um pequeno porto é um bom começo."
+ ARG_militarize_south_orkney_islands: "Militarizar as Ilhas Orcadas do Sul"
+ south_orkney_war_mission: "Guerra das Orcadas do Sul"
+ ARG_establish_esperanza_base: "Estabelecer $BASE_VICTORY_POINTS_17715$"
+ ARG_establish_san_martin_base: "Estabelecer $BASE_VICTORY_POINTS_17811$"
+ ARG_establish_primavera_base: "Estabelecer $BASE_VICTORY_POINTS_17809$"
+ #CHL Decisions
+ CHL_GENERIC_form_antarctica_department: "Emitir o Decreto Nº 1541"
+ CHL_chilean_antarctic_expedition: "Organizar a Expedição Antártica [CHL.GetAdjective]"
+ CHL_establish_o_higgins_station: "Estabelecer $BASE_VICTORY_POINTS_17667$"
+ CHL_establish_prat_station: "Estabelecer $BASE_VICTORY_POINTS_17666$"
+ CHL_establish_carvajal_station: "Estabelecer $BASE_VICTORY_POINTS_17813$"
+ CHL_establish_carrera_station: "Estabelecer $BASE_VICTORY_POINTS_17787$"
+ CHL_establish_allesandri_station: "Estabelecer $BASE_VICTORY_POINTS_17805$"
+ #FRA Decisions
+ FRA_GENERIC_form_antarctica_department: "Estabelecer as Terras Austrais e Antárticas Francesas"
+ FRA_survey_adelie_land: "Mapear $FRA_ADELIE_LAND$"
+ FRA_establish_port_martin: "Estabelecer $BASE_VICTORY_POINTS_17612$"
+ #NOR Decisions
+ NOR_GENERIC_form_antarctica_department: "Colocar a Terra da Rainha Maud sob Soberania Norueguesa"
+ NOR_send_whaling_ships_to_antarctica: "Enviar Navios Baleeiros para a Antártida"
+ NOR_establish_riiser_larsen_station: "Estabelecer $BASE_VICTORY_POINTS_17785$"
+ NOR_establish_christiensen_station: "Estabelecer $BASE_VICTORY_POINTS_17799$"
+ #AST Decisions
+ #AST_GENERIC_form_antarctica_department:
+ AST_continue_the_antarctic_research_expedition: "Continuar as Expedições de Pesquisa Antártica"
+ AST_establish_mawson_station: "Estabelecer $BASE_VICTORY_POINTS_17808$"
+ AST_establish_davis_station: "Estabelecer $BASE_VICTORY_POINTS_17786$"
+ AST_establish_wilkes_station: "Estabelecer $BASE_VICTORY_POINTS_17790$"
+ AST_establish_enderby_station: "Estabelecer $BASE_VICTORY_POINTS_17814$"
+ #NZL Decisions
+ NZL_GENERIC_form_antarctica_department: "Formar a Antártida Nova Zelândia"
+ NZL_geological_survey_antarctic_expedition: "Organizar a Expedição Antártica de Levantamento Geológico"
+ NZL_establish_scott_base: "Estabelecer $NZL_BASE_VICTORY_POINTS_17802$"
+ NZL_establish_hallett_station: "Estabelecer $BASE_VICTORY_POINTS_17706$"
+ #USA Decisions
+ USA_GENERIC_form_antarctica_department: "Estabelecer o USARP"
+ USA_establish_little_america: "Estabelecer $BASE_VICTORY_POINTS_17791$"
+ USA_establish_east_base: "Estabelecer $USA_BASE_VICTORY_POINTS_17811$"
+ #ENG Decisions
+ #Generic Decisions
+ GENERIC_consolidate_antarctic_claims: "Consolidar Reivindicações Antárticas"
+ GENERIC_claim_ice_shelf: "Ocupar [FROM.GetName]"
+
+#Tooltips
+ antarctica_department_tt: "Permite enviar §HExpedições§! para a §HAntártida§!"
+ can_claim_antarctica_tt: "Pode reivindicar a §HAntártida§!"
+ GENERIC_antarctic_expedition_tt: "Investigaremos a viabilidade de estabelecer uma base na §HAntártida§!."
+ stopped_antarctic_research: "§RNão poderemos mais§! investigar a viabilidade de estabelecer uma base na §HAntártida§!."
+ create_antarctic_base: "Cria uma §HEstação Antártica§! chamada §H$BASE$§! com §H$VALUE$§! £victory_points£ §HPonto(s) de Vitória§!."
+ ANTARCTIC_TENSION_HEADER: "§HTensão Antártica§!"
+ add_0_05_to_antarctic_tension_tt: "Aumentar $ANTARCTIC_TENSION_HEADER$ em §R5%§!"
+ add_0_025_to_antarctic_tension_tt: "Aumentar $ANTARCTIC_TENSION_HEADER$ em §R2.5%§!"
+ add_0_1_to_antarctic_tension_tt: "Aumentar $ANTARCTIC_TENSION_HEADER$ em §R10%§!"
+ antarctic_exercises: "Exercitando na §HAntártida§!"
+ will_flee_to_antarctica_tt: "§RApós a rendição, oficiais do alto escalão e uma parte de nossas forças armadas poderão fugir para a Antártida.§!"
+ hold_south_orkney_for_35_days_tt: "Se a guerra for declarada, [ENG.GetNameWithFlag] terá §H90§! dias para capturar as §HIlhas Orcadas do Sul§!.\nCaso contrário, uma paz branca será assinada e as ilhas serão nossas.\n\n$dont_escalate_war_arg_eng_tt$"
+ ENG_hold_south_orkney_for_35_days_tt: "Teremos §H90§! dias para capturar as §HIlhas Orcadas do Sul§! de §H[ARG.GetNameWithFlag]§!.\nCaso contrário, uma paz branca será assinada e as ilhas serão deles.\n\n$dont_escalate_war_arg_eng_tt$"
+ ARG_eng_may_respond_harsly_tt: "§R[ENG.GetName] pode responder duramente a esta ação.\nEles têm mais probabilidade de aceitar se já estiverem distraídos.§!"
+ ENG_if_we_make_antarctic_department_can_take_back_south_orkney_tt: "Se formalizarmos nosso próprio §HDepartamento Antártico§!, poderemos retomar as §HIlhas Orcadas do Sul§!"
+ dont_escalate_war_arg_eng_tt: "§REscalar a guerra além das Ilhas Orcadas do Sul terá consequências graves.§!"
+ south_orkney_war_timeout_effect_tt: "Se o Reino Unido controlar as Ilhas Orcadas do Sul quando o tempo expirar, as ilhas serão capturadas permanentemente pelo Reino Unido. Caso contrário, permanecerão em mãos argentinas indefinidamente."
+ is_establishing_antarctic_base: "Já estabelecendo uma base na §HAntártida§!"
+ GENERIC_consolidate_antarctic_claims_tt: "Qualquer estado §HAntártico§! no qual tenhamos influência majoritária será transferido para nós.\n§RApós tomar esta decisão, nenhum outro estado antártico poderá ser reivindicado.§!\nIsso totaliza atualmente:"
+ abandon_antarctic_base: "Desmantelar §H$BASE$§!."
+ USA_deconstruct_east_base_arg_presence: "Devido à presença §H[ARG.GetAdjective]§!, o local de §H$USA_BASE_VICTORY_POINTS_17811$§! passará para a esfera de influência de §H[ARG.GetNameDef]§!.§!§!"
+ is_antarctic_base_tt: "É uma §HEstação Antártica§!"
+ CHL_cant_construct_o_higgins_base_tt: "§RNão poderemos construir nenhuma Base Antártica em $NORTH_TRINITY_COAST$§!"
+ GER_can_flee_to_antarctica: "Preparando para fugir para a §HNova Suábia§!"
+ fuhrer_key: "Muitos no círculo íntimo do Führer"
+ kaiser_key: "Muitos no gabinete do Kaiser"
+ military_key: "Muitos no estado-maior"
+ chancellor_key: "Muitos no Reichstag e no Reichsrat"
+ communist_key: "Muitos no Politburo"
+
+ decision_cost_CP_10: "£command_power  §Y10§!" #really paradox?
+ decision_cost_CP_10_blocked: "£command_power  §R10§!"
+ decision_cost_CP_10_tooltip: "Custa £command_power  §Y10§! para tomar esta decisão"
+
+ decision_cost_CP_5: "£command_power  §Y5§!"
+ decision_cost_CP_5_blocked: "£command_power  §R5§!"
+ decision_cost_CP_5_tooltip: "Custa £command_power  §Y5§! para tomar esta decisão"
+
+ decision_cost_MP_300_CP_15: "£manpower_texticon  §Y300§! £command_power §Y15§!"
+ decision_cost_MP_300_CP_15_blocked: "£manpower_texticon  §R300§! £command_power §R15§!"
+ decision_cost_MP_300_CP_15_tooltip: "Custa £manpower_texticon  §Y300§! e £command_power §Y15§! para tomar esta decisão"
+
+ decision_cost_MP_500_CP_25: "£manpower_texticon  §Y500§! £command_power §Y25§!"
+ decision_cost_MP_500_CP_25_blocked: "£manpower_texticon  §R500§! £command_power §R25§!"
+ decision_cost_MP_500_CP_25_tooltip: "Custa £manpower_texticon  §Y500§! e £command_power §Y25§! para tomar esta decisão"
+
+#Events
+
+ #News
+ tno_news.1.t: "[ARG.GetName] vence a Guerra das Orcadas do Sul"
+ tno_news.1.desc: "No início desta manhã, delegados de [ENG.GetNameDef] e [ARG.GetNameDef] se reuniram em Montevidéu para discutir uma solução para a Guerra das Orcadas do Sul. Esta conferência de paz levou à decisão de que [ENG.GetNameDef] deve permitir uma presença militar permanente [ARG.GetAdjective] nas Ilhas Orcadas do Sul.\n\nComo a posição de [ENG.GetNameDef] no Atlântico Sul continua a se tornar mais insustentável a cada dia após não conseguir capturar as ilhas, o governo de [ENG.GetLeader] não vê outra opção a não ser assinar o acordo conforme apresentado."
+ tno_news.1.a: "Isto é um desastre!" #eng
+ tno_news.1.b: "Mais uma vitória para [ROOT.GetNameDef]." #arg
+ tno_news.1.c: "Um desdobramento interessante."
+
+ tno_news.2.t: "[ENG.GetName] vence a Guerra das Orcadas do Sul"
+ tno_news.2.desc: "No início desta manhã, delegados de [ENG.GetNameDef] e [ARG.GetNameDef] se reuniram no Rio de Janeiro para discutir o fim da Guerra das Orcadas do Sul. Esta conferência de paz levou à decisão de que [ARG.GetNameDef] deve retirar permanentemente todas as suas forças militares ao sul do paralelo 60° e cessar todas as atividades relacionadas à Antártida.\n\nCom as principais forças de [ARG.GetNameDef] nas Orcadas do Sul tendo se rendido, [ARG.GetLeader] não vê outra opção a não ser assinar o acordo conforme apresentado."
+ tno_news.2.a: "Mais uma vitória para [ROOT.GetNameDef]." #eng
+ tno_news.2.b: "Isto é um desastre!" #arg
+ tno_news.2.c: "Um desdobramento interessante."
+
+ tno_news.3.t: "Guerra das Orcadas do Sul"
+ tno_news.3.desc: "Embora muitos desejassem uma paz duradoura na América do Sul, uma recente reviravolta referente à militarização das Ilhas Orcadas do Sul por [ARG.GetNameDef], decorrente de uma disputa no Atlântico Sul, transformou-se em uma guerra total.\n\nEnquanto [ARG.GetNameDef] e [ENG.GetNameDef] culpam um ao outro pelo início do conflito, suspeita-se que as forças [ENG.GetAdjective]s estejam preparando um ataque anfíbio às ilhas, enquanto o exército [ARG.GetAdjective] está confirmado em reforçar as defesas locais."
+ tno_news.3.a: "Nós os esmagaremos." #eng
+ tno_news.3.b: "Tolos." #arg
+ tno_news.3.c: "Tempos realmente interessantes."
+
+#Generic
+ antarctica.2.t: "Instalação de pesquisa em [FROM.FROM.GetCapitalVictoryPointName]"
+ antarctica.2.desc: "Que tipo de instalação vamos construir em [FROM.FROM.GetCapitalVictoryPointName]?"
+ antarctica.2.a: "Uma instalação terrestre é prudente para testes em duras condições de inverno."
+ antarctica.2.b: "Alguém disse Marinha?"
+ antarctica.2.c: "Uma instalação de aerodinâmica será uma excelente adição à nossa base."
+ antarctica.2.d: "Nenhum país jamais encontrará nossos segredos nucleares aqui!"
+
+#GER
+ GER_antarctica.1.t: "A Expedição Antártica Alemã de [GetYear]"
+ GER_antarctica.1.desc: "O objetivo principal do Schwabenland era de natureza econômica, em particular o estabelecimento de uma estação baleeira e a aquisição de áreas de pesca para uma frota baleeira alemã, a fim de reduzir a dependência do Reich em relação à importação de óleos industriais, gorduras e gorduras alimentares. Os preparativos ocorreram sob estrito sigilo, já que o empreendimento também tinha a missão de avaliar a viabilidade de uma futura ocupação de território antártico na região entre 20° Oeste e 20° Leste."
+ GER_antarctica.1.a: "Parece uma excelente ideia!"
+ GER_antarctica.1.b: "Não podemos poupar os recursos."
+
+ GER_antarctica.100.t: "Bater em retirada para a Nova Suábia?"
+ GER_antarctica.100.desc: "Com o avanço contínuo das forças inimigas pelo coração da Alemanha e a derrota cada vez mais próxima, surgiu a proposta de evacuar ativos militares e pessoal para a Nova Suábia.\nO plano ganhou apoio de altos funcionários civis e militares. [TNO_leader_title_neuschwabenland_event] também expressaram apoio. Devemos seguir em frente com isso?"
+ GER_antarctica.100.a: "Começar os preparativos imediatamente."
+ GER_antarctica.100.b: "Um absurdo!"
+
+ #Rename Humboldt Mountains base event
+ GER_antarctica.101.t: "Nome de Neu Berchtesgaden"
+ GER_antarctica.101.desc: "TODO"
+ GER_antarctica.101.a: "Ja, será Base 211!"
+ GER_antarctica.101.b: "Nein, Neu Berchtesgaden é mais apropriado."
+
+#ARG
+ #Begin of event chain. Event for Argentina when they take the 'Militarize the South Orkney Islands' decision.
+ ARG_antarctica.1.t: "Militarizando as Ilhas Orcadas do Sul"
+ ARG_antarctica.1.desc: "A Argentina comunicou à comunidade internacional o estabelecimento de uma base permanente nas Ilhas Orcadas do Sul. Até agora, a estação dependia do Ministério da Agricultura, até surgir a oportunidade de substituir a administração civil por pessoal da Marinha Argentina.\nTransferir o pessoal pode nos permitir aumentar ainda mais a presença argentina na Antártida.\nDevemos fazer isso?"
+ ARG_antarctica.1.a: "Substituir a administração civil."
+ ARG_antarctica.1.b: "Pensando bem..."
+
+ #Event for Argentina when United Kingdom doesn't do anything.
+ ARG_antarctica.2.t: "[ENG.GetName] não interfere nas Orcadas do Sul"
+ ARG_antarctica.2.desc: "Como esperado, [ENG.GetNameDef] decidiu não interferir em nossa militarização das Ilhas Orcadas do Sul."
+ ARG_antarctica.2.a: "Tudo conforme o planejado."
+
+ #Event for Argentina when United Kingdom responds harshly
+ ARG_antarctica.3.t: "[ENG.GetName] protesta contra nós nas Orcadas do Sul"
+ ARG_antarctica.3.desc: "[ENG.GetLeader] respondeu às nossas ações, recusando-se a recuar e ameaçando com guerra caso violemos sua soberania sobre as Orcadas do Sul. A guerra pode ser iminente."
+ ARG_antarctica.3.a: "Nós mostraremos a eles!"
+ ARG_antarctica.3.b: "Não há nada que possamos fazer, recue."
+
+ #Event for United Kingdom when Argentina militarizes south orkney
+ ARG_antarctica.4.t: "[ARG.GetName] Militariza as Ilhas Orcadas do Sul"
+ ARG_antarctica.4.desc: "TODO"
+ ARG_antarctica.4.a: "Exigir que eles parem imediatamente."
+ ARG_antarctica.4.b: "Não podemos lidar com isso agora."
+
+ # Event for United Kingdom when Argentina refuses to leave South Orkney
+ ARG_antarctica.5.t: "[ARG.GetName] se recusa a deixar as Ilhas Orcadas do Sul"
+ ARG_antarctica.5.desc: "TODO"
+ ARG_antarctica.5.a: "Tomaremos as Orcadas do Sul de volta."
+ ARG_antarctica.5.b: "A guerra é inevitável, recue."
+
+ #End of event chain. Event for United Kingdom when Argentina backs down after militarizing south orkney
+ ARG_antarctica.6.t: "[ARG.GetName] recua"
+ ARG_antarctica.6.desc: "TODO"
+ ARG_antarctica.6.a: "Ótimo, mantenham as ilhas desmilitarizadas." #Transfers the islands to Antarctic Anarchy
+ ARG_antarctica.6.b: "Coloquem uma guarnição na ilha, por precaução." #Makes the islands British
+
+ #End of event chain. Event for Argentina when United Kingdom doesn't want war but protested.
+ ARG_antarctica.7.t: "[ENG.GetName] entrega as Ilhas Orcadas do Sul"
+ ARG_antarctica.7.desc: "Diante do risco iminente de guerra entre nossas nações, [ENG.GetLeader] concordou em permitir 'temporariamente' a presença militar argentina nas ilhas."
+ ARG_antarctica.7.a: "Ótima notícia!"
+
+ #Event for USA if Argentina takes the 'Demand East Base' decision.
+ ARG_antarctica.8.t: "[ARG.GetName] exige a retirada de [1056.GetCapitalVictoryPointName]"
+ ARG_antarctica.8.desc: "O Presidente de [ARG.GetNonIdeologyName] nos enviou um ultimato afirmando que nossa estação na Península Palmer viola sua integridade territorial. A carta declara ainda que, se não começarmos a nos retirar de [1056.GetCapitalVictoryPointName], eles tomarão o local à força. Como devemos responder?"
+ ARG_antarctica.8.a: "Não podemos arriscar antagonizar [ARG.GetNonIdeologyName]."
+ ARG_antarctica.8.b: "Quem eles pensam que são?"
+
+ #Event for Argentina if USA withdraws from East Base
+ ARG_antarctica.9.t: "[USA.GetNameDefCap] abandona a Base Leste!"
+ ARG_antarctica.9.desc: "Sem outra escolha para evitar a guerra, o Presidente [USA.GetLeader] aceitou nosso ultimato e eles estão atualmente em processo de evacuação de [1056.GetCapitalVictoryPointName]."
+ ARG_antarctica.9.a: "Uma grande vitória!" #Add 5 war support
+
+ #Event for Argentina if USA refuses to leave East Base
+ ARG_antarctica.10.t: "[USA.GetNameDefCap] se recusa a deixar a Base Leste!"
+ ARG_antarctica.10.desc: "Sem levar nosso ultimato a sério, [USA.GetNameDef] condenou nossas ações e está pronta para defender a Base Leste caso as hostilidades comecem."
+ ARG_antarctica.10.a: "Os [USA.GetAdjective]s são tolos." #starts border war Argentina should have troops against the border already. USA will gain one poorly equipped 6 width division to defend.
+ ARG_antarctica.10.b: "Talvez a guerra não seja vantajosa para [ARG.GetNameDef]." #lose 50 pp
+
+ #Event for USA if they lose East Base to Argentina #USA Defeat
+ ARG_antarctica.11.t: "Queda da Base Leste"
+ ARG_antarctica.11.desc: "A Base Leste caiu diante das tropas [ARG.GetAdjective]s! O que fazemos agora?"
+ ARG_antarctica.11.a: "Que escolha nós temos?" #Nothing happens
+ ARG_antarctica.11.b: "Isto não acabou." #Gain Conquer (Focus) against Argentina and lose 10 war support
+
+ #Event for Argentina if they take East Base #ARG Victory
+ ARG_antarctica.12.t: "[ARG.GetName] toma a Base Leste de assalto!"
+ ARG_antarctica.12.desc: "Após um confronto entre soldados [ARG.GetAdjective]s e [USA.GetAdjective]s em $SOUTH_GRAHAM_LAND$, foi relatado que [ARG.GetNameDef] capturou com sucesso a Base Leste."
+ ARG_antarctica.12.a: "Uma grande vitória!" #Argentina
+
+ #Shared event for American victory #USA Victory #ARG Defeat #Stalemate
+ ARG_antarctica.13.t: "Derrota [ARG.GetAdjective]!"
+ ARG_antarctica.13.desc: "Após um confronto entre soldados [ARG.GetAdjective]s e [USA.GetAdjective]s em $SOUTH_GRAHAM_LAND$, as tropas [USA.GetAdjective]s conseguiram repelir o exército [ARG.GetAdjective]."
+ ARG_antarctica.13.a: "Uma operação de manual!" #United States
+ ARG_antarctica.13.b: "Lamentável." #Argentina
+
+ #Event for Chile when Argentina constructs Esperanza Base
+ ARG_antarctica.15.t: "[ARG.GetName] estabelece uma base na Península Trinity"
+ ARG_antarctica.15.desc: "[ARG.GetNameDef] quebrou rudemente o status quo na Antártida ao construir secretamente uma base na Península Trinity! Como devemos responder?"
+ ARG_antarctica.15.a: "Desafiaremos a reivindicação deles." #Allows creation of Antarctic bases. No need for a department or expedition.
+ ARG_antarctica.15.b: "Não é da nossa conta." #Argentina will take North Trinity Coast and chile will not be able to construct Base Riquelme O'Higgins
+
+#CHL
+ CHL_antarctica.1.t: "A Expedição Antártica [CHL.GetAdjective]"
+ CHL_antarctica.1.desc: "TODO"
+ CHL_antarctica.1.a: "Devemos começar a trabalhar em uma estação."
+ CHL_antarctica.1.b: "Isso não vale o nosso tempo."
+ CHL_antarctica.1.c: "Fique de olho em qualquer presença [ARG.GetAdjective] ou [ENG.GetAdjective]."
+#FRA
+ FRA_antarctica.1.t: "Mapeando $FRA_ADELIE_LAND$"
+ FRA_antarctica.1.desc: "Nossa expedição para $FRA_ADELIE_LAND$ foi bem-sucedida e abriu-se a oportunidade de construir uma base."
+ FRA_antarctica.1.a: "Esta é uma excelente ideia!"
+ FRA_antarctica.1.b: "Não precisamos disso."
+#NOR
+ NOR_antarctica.1.t: "Navios Baleeiros Chegam à Antártida"
+ NOR_antarctica.1.desc: "Nossa expedição para $QUEEN_MAUD_LAND$ foi bem-sucedida e abriu-se a oportunidade de construir uma estação baleeira ou uma base."
+ NOR_antarctica.1.a: "Esta é uma excelente ideia!"
+ NOR_antarctica.1.b: "Não precisamos disso."
+#AST
+ AST_antarctica.1.t: "Terceira Expedição Antártica de Mawson"
+ AST_antarctica.1.desc: "TODO"
+ AST_antarctica.1.a: "Seguiremos a proposta de Evatt."
+ AST_antarctica.1.b: "Não temos interesse em criar uma base permanente no momento."
+#NZL
+ 
+#USA
+ USA_antarctica.1.t: "Terceira Expedição Antártica de Byrd"
+ USA_antarctica.1.desc: "Um total de 125 homens partiram dos Estados Unidos nos dois navios da Expedição do Serviço Antártico dos Estados Unidos. A maioria dos homens que integravam a expedição foi recrutada das fileiras militares, agências civis do governo e instituições científicas.\nOs objetivos da expedição foram definidos em uma ordem do Presidente [USA.GetLeader].\nO Presidente desejava o estabelecimento de duas bases: a Base Leste, nas proximidades da Ilha Charcot ou na Baía Marguerite; e a Base Oeste, nas proximidades da Terra do Rei Edward VII, mas caso isso se mostrasse impossível, um local na Baía das Baleias deveria ser investigado, além do delineamento da linha costeira continental entre os meridianos 72° O e 148° O."
+ USA_antarctica.1.a: "Considerar o estabelecimento de bases."
+ USA_antarctica.1.b: "Nenhum desses locais é adequado. Cancelar o projeto."
+#ENG
+ 
+#Generic
+ antarctica.1.t: "O Retorno de Nossa Expedição Antártica"
+ antarctica.1.desc: "Nossa recente expedição à Antártida retornou com resultados promissores. Eles mapearam grande parte da região de nosso interesse e selecionaram possíveis locais para estações permanentes.\nAgora, devemos estabelecer uma base na Antártida?"
+ antarctica.1.a: "Vamos considerar."
+ antarctica.1.b: "Pensando bem..."
