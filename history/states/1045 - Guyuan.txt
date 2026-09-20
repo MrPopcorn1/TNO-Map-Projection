@@ -18,9 +18,7 @@ state = {
 			arms_factory = 1
 		}
 
-		victory_points = {
-			5025 1 # Guyuan
-		}
+		
 
 		1936.1.1 = {
 			IF = {
@@ -47,10 +45,13 @@ state = {
 				}
 			}
 		}
+		victory_points = {
+			5025 1 # Guyuan
+		}
 	}
 
 	provinces = {
-		1985 3745 5025 14445 16800 16840 18003 
+		3745 4939 5025 14445 16800 16840 18003 19490 19520 19593
 	}
 	
 	buildings_max_level_factor = 1.000

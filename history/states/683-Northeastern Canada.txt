@@ -4,6 +4,7 @@ state={
 	resources={
 		aluminium=7.000
 	}
+	force_link_ownership_to = 472 # N.W. Territories
 
 	history={
 		owner = CAN
